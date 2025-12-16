@@ -10,7 +10,7 @@ int main(){
 			else if(score>=75)
 				printf("B");
 			else
-				printf("C");		
+				printf("C %d",75-score);		
 		}
 		else {
 			if (score>=55)
@@ -23,4 +23,5 @@ int main(){
 		printf("error score");
 	return 0;
 }
+
 
